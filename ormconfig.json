@@ -1,0 +1,16 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "database": "nest-intro",
+  "schema": "public",
+  "username": "nest-intro",
+  "password": "welc0me",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": false,
+  "migrationsTableName": "migrations",
+  "migrations": ["src/database/migrations*.ts"],
+  "cli": {
+    "mimgrationsDir": "src/database/migrations"
+  }
+}

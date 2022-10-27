@@ -27,7 +27,6 @@ lerna-debug.log*
 .settings/
 .env.*
 *.sublime-workspace
-package-lock.json
 
 # IDE - VSCode
 .vscode/*
